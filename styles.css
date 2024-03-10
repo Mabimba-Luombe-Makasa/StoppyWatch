@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display";
+    
+}
+
+.stopwatch h2 {
+    font-size: 38px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.background {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(5,0,158,0.9976365546218487) 35%, rgba(0,245,255,1) 100%);
+    padding: 10px;
+}
+
+.stopwatch {
+    width: 100%;
+    max-width: 600px;
+    background: linear-gradient(45deg, rgba(227, 202, 255, 0.5), rgba(169, 255, 219, 0.5)); 
+    border-radius: 25px;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 200px auto 0;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.13);
+}
+
+
+.stopwatch h1 {
+    margin-top: 60px;
+    font-size: 65px;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.buttons img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 5px rgba(26, 26, 26, 0.5));
+}
+
+
+.buttons img:nth-child(1){
+    width: 80px;
+}
+
